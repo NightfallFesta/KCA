@@ -298,7 +298,7 @@ a {
 
 .actionImg10 {
     overflow: hidden;
-    position: relative;
+    
     background-color: #fff;
     padding: 2vw 2vw 0 2vw;
 }
@@ -307,13 +307,19 @@ a {
     bottom: 20px !important;
 }
 
-.actionImg10:after {
+.actionImg10:hover .lm_txt:after {
+	transform:scaleX(1.2);
+	-webkit-transform:scaleX(1.2);
+	-moz-transform:scaleX(1.2);
+}
+
+.actionImg10 .lm_txt:after{
 	position:absolute;
-	bottom:0;
-	left:30px;
+	bottom: -1vw;
+	left:0;
 	content:'';
-	width:73%;
-	height:8px;
+	width:83%;
+	height:0.5vw;
 	background-color:#926649;
 	transform:scaleX(0);
 	-webkit-transform:scaleX(0);
@@ -337,7 +343,7 @@ a {
 
 .actionImg10 .lm_img img {
     width: 100%;
-    height: a20vw;
+    height: 20vw;
     /* margin-top:-50px;*/
     filter: grayscale(80%);
     -webkit-filter: grayscale(80%);
@@ -351,6 +357,7 @@ a {
     font-size: 12px;
     color: #a2a2a2;
     text-align: left;
+	position: relative;
 }
 
 .actionImg10 .lm_txt .sub_tit {
@@ -362,11 +369,7 @@ a {
     text-align: left;
 }
 
-.actionImg10:hover:after {
-    transform: scaleX(1.2);
-    -webkit-transform: scaleX(1.2);
-    -moz-transform: scaleX(1.2);
-}
+
 
 .actionImg10:hover .lm_img img {
     filter: grayscale(0%);
@@ -403,7 +406,31 @@ a {
     bottom: 20px !important;
 }
 
+.actionImg11 .lm_txt:after{
+	position:absolute;
+	bottom: -1vw;
+	left:0;
+	content:'';
+	width:83%;
+	height:0.5vw;
+	background-color:white;
+	transform:scaleX(0);
+	-webkit-transform:scaleX(0);
+	-moz-transform:scaleX(0);
+	transform-origin:left;
+	-webkit-transform-origin:left;
+	-moz-transform-origin:left;
+	transition:transform .5s;
+	-webkit-transition:transform .5s;
+	-moz-transition:transform .5s;
+	border-radius:50px;
+}
 
+.actionImg11:hover .lm_txt:after {
+	transform:scaleX(1.2);
+	-webkit-transform:scaleX(1.2);
+	-moz-transform:scaleX(1.2);
+}
 .actionImg11 .lm_img {
     overflow: hidden;
     width: 100%;
@@ -428,6 +455,7 @@ a {
     font-size: 12px;
     color: #D9D9D9;
     text-align: left;
+	position: relative;
 }
 
 .actionImg11 .lm_txt .sub_tit {
