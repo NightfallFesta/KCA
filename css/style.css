@@ -309,7 +309,7 @@ a {
 
 .actionImg10:after {
     position: absolute;
-    bottom: 0;
+    bottom: 3vw;
     left: 30px;
     content: '';
     width: 73%;
@@ -330,7 +330,7 @@ a {
 .actionImg10 .lm_img {
     overflow: hidden;
     width: 100%;
-    height: 350px;
+    height: 20vw;
     /* margin-bottom:15px;
 	 border:1px solid #dadfe0; */
 }
@@ -397,6 +397,7 @@ a {
     position: relative;
     background-image: url(../img//back2.png);
     padding: 25px;
+	height: 30vw;
 }
 
 .actionImg11 .codeView_btn {
@@ -405,7 +406,7 @@ a {
 
 .actionImg11:after {
     position: absolute;
-    bottom: 0;
+    bottom: 3vw;
     left: 24px;
     content: '';
     width: 75%;
@@ -426,7 +427,7 @@ a {
 .actionImg11 .lm_img {
     overflow: hidden;
     width: 100%;
-    height: 350px;
+    height: 20vw;
     /* margin-bottom:15px;
 	 border:1px solid #dadfe0; */
 }
@@ -556,7 +557,7 @@ header>div#warp>nav {
 
 header>div#warp>nav>ul {
     margin: auto;
-    padding-top: 165px
+    padding-top: 8.5vw;
 }
 
 header>div#warp>nav>ul>li {
@@ -567,7 +568,7 @@ header>div#warp>nav>ul>li {
 
 header>div#warp>nav>ul>li>a {
     color: white;
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-family: 'cafe24';
     font-weight: 500
 }
@@ -674,6 +675,7 @@ article>div#artwrap>div>div {
     float: left;
     text-align: center;
     padding-top: 70px;
+	height: 35vw;
 }
 
 article>div#artwrap>div>div>span {
