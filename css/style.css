@@ -50,10 +50,10 @@ a {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1vw;
     font-weight: 550;
     font-family: 'gmarket';
-    font-size: 18px
+    font-size: 1vw;
 }
 
 .text2 {
@@ -61,15 +61,15 @@ a {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1vw;
     font-weight: 550;
     color: white;
     font-family: 'gmarket';
-    font-size: 18px
+    font-size: 1vw;
 }
 
 .artpad {
-    padding-bottom: 90px
+    padding-bottom: 5vw;
 }
 
 .bgimg {
@@ -300,32 +300,14 @@ a {
     overflow: hidden;
     position: relative;
     background-color: #fff;
-    padding: 30px;
+    padding: 2vw 2vw 0 2vw;
 }
 
 .actionImg10 .codeView_btn {
     bottom: 20px !important;
 }
 
-.actionImg10:after {
-    position: absolute;
-    bottom: 3vw;
-    left: 30px;
-    content: '';
-    width: 73%;
-    height: 8px;
-    background-color: #926649;
-    transform: scaleX(0);
-    -webkit-transform: scaleX(0);
-    -moz-transform: scaleX(0);
-    transform-origin: left;
-    -webkit-transform-origin: left;
-    -moz-transform-origin: left;
-    transition: transform .5s;
-    -webkit-transition: transform .5s;
-    -moz-transition: transform .5s;
-    border-radius: 50px;
-}
+
 
 .actionImg10 .lm_img {
     overflow: hidden;
@@ -337,7 +319,7 @@ a {
 
 .actionImg10 .lm_img img {
     width: 100%;
-    height: auto;
+    height: a20vw;
     /* margin-top:-50px;*/
     filter: grayscale(80%);
     -webkit-filter: grayscale(80%);
@@ -355,10 +337,9 @@ a {
 
 .actionImg10 .lm_txt .sub_tit {
     display: block;
-    margin-bottom: 15px;
-    font-size: 20px;
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
     color: #7c7c7c;
-    font-size: 16px;
     letter-spacing: .5px;
     text-align: left;
 }
@@ -396,33 +377,14 @@ a {
     overflow: hidden;
     position: relative;
     background-image: url(../img//back2.png);
-    padding: 25px;
-	height: 30vw;
+    padding: 2vw 2vw 0 2vw;
+	height: 32vw;
 }
 
 .actionImg11 .codeView_btn {
     bottom: 20px !important;
 }
 
-.actionImg11:after {
-    position: absolute;
-    bottom: 3vw;
-    left: 24px;
-    content: '';
-    width: 75%;
-    height: 8px;
-    background-color: #fff;
-    transform: scaleX(0);
-    -webkit-transform: scaleX(0);
-    -moz-transform: scaleX(0);
-    transform-origin: left;
-    -webkit-transform-origin: left;
-    -moz-transform-origin: left;
-    transition: transform .5s;
-    -webkit-transition: transform .5s;
-    -moz-transition: transform .5s;
-    border-radius: 50px;
-}
 
 .actionImg11 .lm_img {
     overflow: hidden;
@@ -570,7 +532,6 @@ header>div#warp>nav>ul>li>a {
     color: white;
     font-size: 1.5vw;
     font-family: 'cafe24';
-    font-weight: 500
 }
 
 section {
@@ -604,9 +565,9 @@ div#art2 {
 
 article>div#art1>h2 {
     text-align: center;
-    font-size: 33px;
+    font-size: 2vw;
     color: #926649;
-    padding-top: 80px;
+    padding-top: 2vw;
 }
 
 article>div#art1>a {
@@ -636,8 +597,8 @@ article>p {
 
 article>div#art2>h2 {
     text-align: center;
-    font-size: 33px;
-    padding-top: 270px;
+    font-size: 2vw;
+    padding-top: 18vw;
     color: white;
     font-family: 'gmarket'
 }
@@ -662,7 +623,7 @@ article>div#art2>a>span {
 article>div#artwrap {
     width: 80%;
     margin: auto;
-    height: 600px
+    height: 32vw;
 }
 
 article>div#artwrap>div {
@@ -674,8 +635,8 @@ article>div#artwrap>div>div {
     width: 33%;
     float: left;
     text-align: center;
-    padding-top: 70px;
-	height: 35vw;
+    padding-top: 5vw;
+	height: 32vw;
 }
 
 article>div#artwrap>div>div>span {
@@ -689,7 +650,8 @@ article>div#artwrap>div>div>img {
 article>div#artwrap1 {
     width: 80%;
     margin: auto;
-    height: 600px
+    height: 30vw;
+	padding-bottom: 5vw;
 }
 
 article>div#artwrap1>div {
@@ -701,7 +663,7 @@ article>div#artwrap1>div>div {
     width: 33%;
     float: left;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 5vw;
 }
 
 article>div#artwrap1>div>div>span {
@@ -728,8 +690,8 @@ div#under>div#notice {
 
 div#under>div#notice>h2 {
     text-align: left;
-    font-size: 25px;
-    padding-bottom: 10px;
+    font-size: 1vw;
+    padding-bottom: 1vw;
     color: #926649;
     font-family: 'gmarket'
 }
@@ -737,7 +699,7 @@ div#under>div#notice>h2 {
 div#under>div#notice>span {
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 0;
 }
 
 div#under>div#notice>span>a {
@@ -750,9 +712,9 @@ div#under>div#notice>ul {
     overflow: hidden;
     border: 2px solid #926649;
     margin-right: 10px;
-    height: 450px;
     border-radius: 20px;
-    height: 600px
+    height: 30vw;
+	box-sizing: border-box;
 }
 
 div#under>div#notice>ul>li {
@@ -761,9 +723,9 @@ div#under>div#notice>ul>li {
 
 div#under>div#notice>ul>li>a {
     color: dimgray;
-    font-size: 22px;
+    font-size:1vw;
     font-family: 'gmarket';
-    margin-left: 10px
+    margin-left: 1vw;
 }
 
 div#under>div#brand {
@@ -777,10 +739,9 @@ div#under>div#brand>div#brand1 {
 
 div#under>div#brand>div#brand1>h2 {
     text-align: left;
-    font-size: 25;
-    padding-bottom: 10px;
+    padding-bottom: 1vw;
     color: #926649;
-    margin-left: 10px;
+    margin-left: 1vw;
     font-family: 'gmarket'
 }
 
@@ -801,12 +762,12 @@ div#under>div#brand>div#brand1>span>a {
 
 div#under>div#brand>div#brand2 {
     margin-left: 10px;
-    height: 600px;
+    height: 30vw;
 }
 
 div#under>div#brand>div#brand2>ul {
-    height: 600px;
-    border-top: 2px solid white
+    height: 30vw;
+    
 }
 
 div#under>div#brand>div#brand2>ul>li.h50 {
