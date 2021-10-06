@@ -307,7 +307,25 @@ a {
     bottom: 20px !important;
 }
 
-
+.actionImg10:after {
+	position:absolute;
+	bottom:0;
+	left:30px;
+	content:'';
+	width:73%;
+	height:8px;
+	background-color:#926649;
+	transform:scaleX(0);
+	-webkit-transform:scaleX(0);
+	-moz-transform:scaleX(0);
+	transform-origin:left;
+	-webkit-transform-origin:left;
+	-moz-transform-origin:left;
+	transition:transform .5s;
+	-webkit-transition:transform .5s;
+	-moz-transition:transform .5s;
+	border-radius:50px;
+}
 
 .actionImg10 .lm_img {
     overflow: hidden;
@@ -714,7 +732,6 @@ div#under>div#notice>ul {
     margin-right: 10px;
     border-radius: 20px;
     height: 30vw;
-	box-sizing: border-box;
 }
 
 div#under>div#notice>ul>li {
